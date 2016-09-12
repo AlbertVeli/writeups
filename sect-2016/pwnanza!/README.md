@@ -1,16 +1,16 @@
 **Pwnanaza! - Pwn (100)**
 
-We have captured three androids. Use them to practice your pwning.
+	We have captured three androids. Use them to practice your pwning.
 
-nc pwn2.sect.ctf.rocks 3000
-nc pwn2.sect.ctf.rocks 3001
-nc pwn2.sect.ctf.rocks 3002
+	nc pwn2.sect.ctf.rocks 3000
+	nc pwn2.sect.ctf.rocks 3001
+	nc pwn2.sect.ctf.rocks 3002
 [pwnanaza.tar.gz](https://www.dropbox.com/s/9ih9mgjrirf6can/pwnanaza.tar.gz?dl=1)
 
 
-Solves: 26
+	Solves: 26
 
-Author: @likvidera
+	Author: @likvidera
 
 
 The file contains the three binaries *pwn_x86*, *pwn_x64* and *pwn_arm32*
@@ -18,9 +18,9 @@ which are the binaries you interact with when connecting to the ports.
 
 No reverse engineering is needed, just do what the binary tells you:
 
-./pwn_x86
-[*] Intel-x86 Module
-[!] Enter your hex-encoded shellcode:
+	./pwn_x86
+	[*] Intel-x86 Module
+	[!] Enter your hex-encoded shellcode:
 
 So it wants a *hex-encoded* shellcode. The easiest way to send
 shellcode to a port is with [pwntools](https://docs.pwntools.com/en/stable/).
