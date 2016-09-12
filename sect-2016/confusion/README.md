@@ -3,6 +3,11 @@
 We recovered this file from a hacked android. See if you can find
 anything in it.
 
+Solves: 3
+
+Author: @d3vnu11
+
+
 The confusion.tar.gz file contained the following png-image:
 
 ![Head deeper and follow the trail...](confusion.png)
@@ -77,10 +82,10 @@ from 0xA7D to a new file with dd:
 
 And inserted the 4 header signature bytes into carved.zip with hexedit.
 But unzip fails with: *End-of-central-directory signature not found*.
-It is surely possible to fix that with hexedit, but I googled
-for ZIP repair tool instead and the first one worked (diskinternals
-zip repair). File told me the extracted file .1337 was a PDF
-file so I renamed it [1337.pdf](1337.pdf).
+It is certainly possible to fix that with hexedit, but I was in a hurry
+and googled for ZIP repair tool instead and the first one worked
+(diskinternals zip repair). File told me the extracted file .1337
+was a PDF file so I renamed it [1337.pdf](1337.pdf).
 
 	file .1337
 	.1337: PDF document, version 1.4
