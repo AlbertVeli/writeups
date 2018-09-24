@@ -178,7 +178,7 @@ Now the output didn't recreate the whole key, there are three spaces. I filled i
 ```
 cat key.txt
 :P-@uSL"Y1K$[X)fg[|".45Yq9i>eV)<0C:('q4nP[hGd/EeX+E7,2O"+:[2
-xorfiles xorfiles youfool\!.exe key.txt > flag.pdf
+xorfiles youfool\!.exe key.txt > flag.pdf
 ```
 
 
