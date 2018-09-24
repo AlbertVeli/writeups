@@ -85,7 +85,7 @@ the last call it does:
 and eax is 0xea2af230 after that. Then it calls \_ZNSt7\_\_cxx119to\_stringEi using that
 number as argument and it returns the string "-366284240" (signed int of the hex number).
 And a bit down a compare and a jump. Just to verify the number:
-```
+```bash
 python2 -c "print -0x100000000 + 0xea2af230"
 -366284240
 ```
@@ -109,7 +109,7 @@ significant bit in the blue value of r,g,b pixels).
 
 [ransomware.zip](https://dctf.def.camp/dctf-18-quals-81249812/ransomware.zip)
 
-The zip contains an .exe file and a .pyc file. The .pyc can be decompiled using decompyle6:
+The zip contains an .exe file and a .pyc file. The .pyc can be decompiled using uncompyle6:
 ```python
 # uncompyle6 version 3.2.3
 # Python bytecode 2.7 (62211)
